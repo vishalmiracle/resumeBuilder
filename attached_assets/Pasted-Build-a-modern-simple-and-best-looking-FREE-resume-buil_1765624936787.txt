@@ -1,0 +1,143 @@
+Build a modern, simple, and best-looking FREE resume builder web app using React + TypeScript.
+
+Core Requirements
+
+The app must be completely free (no login, no paywall).
+
+Clean, professional, and cool modern theme (soft gradients, minimal shadows, good typography).
+
+Fully responsive and beginner-friendly UI.
+
+App Flow
+
+Dashboard (Default Page)
+
+Display multiple resume templates as cards with thumbnails.
+
+Each card shows template name and preview.
+
+User selects a template to continue.
+
+Template Selection Behavior
+
+After selecting a template:
+
+Navigate to the Resume Builder page.
+
+Load a default resume with pre-filled data (dummy but realistic data).
+
+Resume Builder Layout
+
+Split screen layout:
+
+Left side: Editable form sections
+
+Right side: Live resume preview
+
+Changes on the left must reflect instantly on the right.
+
+Editable Resume Sections
+
+Header:
+
+Name
+
+Job Title
+
+Summary
+
+Personal Information
+
+Education
+
+Experience
+
+Skills
+
+User should be able to:
+
+Edit text content
+
+Add/remove education or experience entries
+
+Edit section headings (like “Experience” → “Work History”)
+
+Resume Templates
+
+Templates must be component-based
+
+Each template should:
+
+Have a unique layout and color style
+
+Use the same resume data structure
+
+Easy to add new templates later
+
+UI / Theme Guidelines
+
+Use:
+
+Modern fonts (Inter / Poppins / System UI)
+
+Soft background gradients
+
+Card-based layout
+
+Minimal icons
+
+Theme should feel:
+
+Clean
+
+Professional
+
+Slightly creative (not boring)
+
+Technical Requirements
+
+React + TypeScript
+
+React Router for navigation
+
+Global state using Context API or lightweight state management
+
+Strong TypeScript typing for resume data
+
+No backend (frontend-only)
+
+Bonus (Optional but Preferred)
+
+Download resume as PDF
+
+Light/Dark mode
+
+Print-friendly layout
+
+Code Quality Expectations
+
+Clean folder structure
+
+Reusable components
+
+Well-typed props and state
+
+Easy to extend
+
+Output Expectation
+
+Generate:
+
+Folder structure
+
+Resume data types
+
+Sample default resume data
+
+Template components
+
+Main pages (Dashboard, Builder)
+
+Styling approach
+
+Build this as a production-quality resume builder, optimized for clarity, usability, and visual appeal.
