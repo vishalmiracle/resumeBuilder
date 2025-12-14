@@ -18,6 +18,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Single Page Apps for GitHub Pages -->
+    <!-- MIT License -->
+    <!-- https://github.com/rafgraph/spa-github-pages -->
+    <!-- Copyright (c) 2016 Rafael Pedicini, -->
+    <!-- Licensed under the MIT License -->
+    <!-- ----------------------------------------------------------------------
+    GitHub Pages
+
+    The percentage of pages we check.
+    -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini,
+      // Licensed under the MIT License
+      // ----------------------------------------------------------------------
+      // GitHub Pages
+
+      // The percentage of pages we check.
+      var pathSegmentsToKeep = 1;
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
     <script type="module" crossorigin src="/resumeBuilder/assets/index-CwiIaC1A.js"></script>
     <link rel="stylesheet" crossorigin href="/resumeBuilder/assets/index-CFcnvfdI.css">
   </head>
