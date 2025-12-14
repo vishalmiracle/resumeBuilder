@@ -1,20 +1,16 @@
+
 {
-  "name": "rest-express",
+  "name": "resume-builder",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "homepage":"https://vishalmiracle.github.io/resumeBuilder/",
+  "homepage": "https://vishalmiracle.github.io/resumeBuilder/",
   "scripts": {
-    "dev:client": "vite dev --port 5000",
-    "dev": "NODE_ENV=development tsx server/index.ts",
-    "build": "tsx script/build.ts",
-    "start": "NODE_ENV=production node dist/index.cjs",
-    "check": "tsc",
-    "db:push": "drizzle-kit push",
+    "dev": "vite dev --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
